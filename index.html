@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon" href="image/check.png">
+    <script src="https://kit.fontawesome.com/771729e978.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav-bar">
+                <h3 class="logo">Quiz App</h3>
+                <button class="sign-in-btn">Sign in</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="quiz-contianer">
+        <div class="wrapper">
+            <div class="quiz-discription">
+                <h3 class="title-quiz">Welcome to the best Quiz App</h3>
+                <p class="info-quiz">
+                    In this app you can answer the real question
+                    for now we can just ask the question about one subject
+                    and as soon as possible we can add different subject.
+                </p>
+                <button class="start-btn">Start Quiz</button>
+            </div>
+    
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <h1 class="quiz-name">Smart Quiz</h1>
+                    <div class="score-box">
+                        <span class="result-score"></span>/<span class="total-score"></span>
+                    </div>
+                    <h4 class="main-question">The Main question will ask form users?</h4>
+                    <h5 class="quiz-subject">Sport</h5>
+                </div>
+    
+                <div class="quiz-body">
+                    <ul class="quiz-question-box">
+                        <li>1. the answer of the question will show here.</li>
+                        <li>2. the answer of the question will show here.</li>
+                        <li>3. the answer of the question will show here.</li>
+                        <li>4. the answer of the question will show here.</li>
+                    </ul>
+                    <div class="result">
+
+                    </div>
+                </div>
+    
+                <div class="quiz-foot">
+                    <!-- <p class="result-quiz"></p> -->
+                    <button type="button" class="Check-answer-btn">Check answer</button>
+                    <button type="button" class="start-again-btn">Start again</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
